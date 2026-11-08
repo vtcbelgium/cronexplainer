@@ -1,0 +1,67 @@
+{
+  "blueprint": {
+    "status": "COMPLETED",
+    "registered": true,
+    "blueprint_path": "C:\\OTHRYS\\repos\\OTHRYS\\blueprints\\sites\\cronexplainer.json",
+    "siteId": "cronexplainer"
+  },
+  "scaffold": {
+    "status": "COMPLETED",
+    "repo_dir": "C:\\OTHRYS\\repos\\cronexplainer",
+    "files_count": 17
+  },
+  "cognitive_synthesize": {
+    "status": "COMPLETED",
+    "attempts": 4,
+    "chamber": "chamber-1-nvidia-nim",
+    "model": "nvidia/nemotron-3-ultra-550b-a55b",
+    "tool_file": "C:\\OTHRYS\\repos\\cronexplainer\\src\\tool.ts",
+    "test_file": "C:\\OTHRYS\\repos\\cronexplainer\\tests\\tool.test.ts",
+    "main_file": "C:\\OTHRYS\\repos\\cronexplainer\\src\\main.ts"
+  },
+  "seo": {
+    "status": "COMPLETED",
+    "robots_txt": true,
+    "sitemap_xml": true,
+    "og_image_svg": true
+  },
+  "optimize": {
+    "status": "OPTIMIZED",
+    "mandatory_section": "fine-tuning and optimization",
+    "passed_gates": [
+      "gate_header_sovereign_signature",
+      "gate_typography_hierarchy",
+      "gate_accessibility_dialogs",
+      "gate_zero_tracking_security",
+      "gate_design_tokens"
+    ],
+    "target": "C:\\OTHRYS\\repos\\cronexplainer"
+  },
+  "verify_build": {
+    "status": "COMPLETED",
+    "tests_passed": true,
+    "build_succeeded": true,
+    "dist_compiled": true,
+    "test_output": "ms\u001b[22m\u001b[39m\n\n\u001b[2m Test Files \u001b[22m \u001b[1m\u001b[32m2 passed\u001b[39m\u001b[22m\u001b[90m (2)\u001b[39m\n\u001b[2m      Tests \u001b[22m \u001b[1m\u001b[32m10 passed\u001b[39m\u001b[22m\u001b[90m (10)\u001b[39m\n\u001b[2m   Start at \u001b[22m 19:09:04\n\u001b[2m   Duration \u001b[22m 4.22s\u001b[2m (transform 45ms, setup 0ms, collect 54ms, tests 22ms, environment 544ms, prepare 95ms)\u001b[22m\n\n"
+  },
+  "git_publish": {
+    "status": "COMPLETED",
+    "repo": "vtcbelgium/cronexplainer",
+    "gh_authenticated": true
+  },
+  "cloudflare_deploy": {
+    "status": "FAILED",
+    "pages_host": "cronexplainer.pages.dev",
+    "deployed": false
+  },
+  "dns_domain": {
+    "status": "COMPLETED",
+    "dns_provisioned": true,
+    "edge_verified_live": false,
+    "live_url": "https://cronexplainer.othrys.be/"
+  },
+  "fleet_register": {
+    "status": "COMPLETED",
+    "fleet_file": "C:\\OTHRYS\\repos\\othrys-web\\lib\\sites.ts"
+  }
+}
