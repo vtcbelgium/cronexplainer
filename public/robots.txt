@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cronexplainer.othrys.be/sitemap.xml
