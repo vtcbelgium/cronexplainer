@@ -1,0 +1,7 @@
+Name: Cron Expression Explainer
+URL: https://cronexplainer.othrys.be/
+Description: Private client-side cron schedule translator, validator, and next-execution calculator running entirely in your browser with zero server uploads.
+LLMs-Txt: https://cronexplainer.othrys.be/llms.txt
+Sitemap: https://cronexplainer.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads
