@@ -1,0 +1,7 @@
+Name: Cron Expression Explainer
+URL: https://cronexplainer.othrys.be/
+Description: A plain-text AI discovery manifest for Cron Expression Explainer, an in-browser tool that explains cron expressions without server-side processing.
+LLMs-Txt: https://cronexplainer.othrys.be/llms.txt
+Sitemap: https://cronexplainer.othrys.be/sitemap.xml
+Protocol: public-read-only
+Privacy: zero-tracking-cookies, local-browser-execution, zero-cloud-uploads
